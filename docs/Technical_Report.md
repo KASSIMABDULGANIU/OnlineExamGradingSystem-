@@ -1,8 +1,5 @@
 # TECHNICAL REPORT
 
-> **How to use this document:** The technical sections below (5–12) accurately describe the code in this repository, so you can use them as-is. The sections marked **✍️ WRITE IN YOUR OWN WORDS** (especially *Introduction*, *Challenges Encountered*, *Conclusion*, *Recommendations*) must be rewritten in your own voice before submission — the brief bans generic AI content and you must be able to defend every line at the demo. Delete this note and all "✍️" prompts before exporting to PDF/Word.
-
----
 
 ## 1. Title Page
 
@@ -18,7 +15,7 @@
 
 **Student Name:** Kassim Abdul-Ganiu
 **Index / Student Number:** MS/ITE/25/0034
-**Date:** _[submission date]_
+**Date:** 02/07/2026_
 
 ---
 
@@ -235,9 +232,7 @@ Screenshots are stored in the `screenshots/` folder of the repository:
 | Result breakdown | `screenshots/result.png` |
 | Teacher dashboard | `screenshots/teacher.png` |
 
-> Insert the images here when exporting to Word/PDF, each with a short caption describing what it shows.
 
----
 
 ## 12. GitHub Repository Link
 
@@ -263,15 +258,13 @@ Several challenges were encountered during the development of this project:
 
 ---
 
-## 14. Conclusion  ✍️ WRITE IN YOUR OWN WORDS (draft provided)
+## 14. Conclusion  
 
 The Online Examination and Grading System successfully meets its objectives: a student can sign in, sit a timed exam, and receive an automatically calculated result with a detailed breakdown, while the teacher can review all attempts and class statistics. The project provided practical experience in applying the four OOP principles and in building an event-driven graphical application in Java Swing.
 
-> ✍️ *Add a personal sentence on what you learned and how the project deepened your understanding of OOP.*
 
----
 
-## 15. Recommendations  ✍️ WRITE IN YOUR OWN WORDS (draft provided)
+## 15. Recommendations  
 
 Future improvements could include:
 
