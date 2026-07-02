@@ -63,7 +63,7 @@ public class ResultPanel extends JPanel {
         bar.setBackground(band);
         bar.setBorder(BorderFactory.createEmptyBorder(18, 26, 18, 26));
         String verdict = result.isPass() ? "PASS" : "FAIL";
-        bar.add(Ui.label(result.getExam().getTitle() + "  —  " + verdict, Theme.H2, Color.WHITE),
+        bar.add(Ui.label(result.getExam().getTitle() + "  -  " + verdict, Theme.H2, Color.WHITE),
                 BorderLayout.WEST);
         return bar;
     }

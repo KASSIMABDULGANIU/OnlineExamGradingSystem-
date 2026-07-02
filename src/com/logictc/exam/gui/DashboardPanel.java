@@ -79,8 +79,8 @@ public class DashboardPanel extends JPanel {
 
         JLabel title = Ui.label(exam.getTitle(), Theme.H2, Theme.TEXT);
         title.setAlignmentX(Component.LEFT_ALIGNMENT);
-        String metaText = exam.getSubject() + "   •   " + exam.getQuestionCount()
-                + " questions   •   " + exam.getTotalPoints() + " marks   •   "
+        String metaText = exam.getSubject() + "   |   " + exam.getQuestionCount()
+                + " questions   |   " + exam.getTotalPoints() + " marks   |   "
                 + exam.getDurationMinutes() + " min";
         JLabel meta = Ui.label(metaText, Theme.BODY, Theme.MUTED);
         meta.setAlignmentX(Component.LEFT_ALIGNMENT);

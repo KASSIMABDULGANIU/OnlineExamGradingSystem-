@@ -121,7 +121,7 @@ public class ExamPanel extends JPanel {
 
         JLabel head = Ui.label("Q" + number + ".   " + question.getText(), Theme.BODY_BOLD, Theme.TEXT);
         head.setAlignmentX(Component.LEFT_ALIGNMENT);
-        JLabel tag = Ui.label(question.getType() + "   •   " + question.getPoints() + " marks",
+        JLabel tag = Ui.label(question.getType() + "   |   " + question.getPoints() + " marks",
                 Theme.SMALL, Theme.MUTED);
         tag.setAlignmentX(Component.LEFT_ALIGNMENT);
 
