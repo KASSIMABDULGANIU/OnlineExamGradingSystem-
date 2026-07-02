@@ -16,19 +16,19 @@
 
 **Project Title:** Online Examination and Grading System (Java Swing Desktop Application)
 
-**Student Name:** _[confirm your full name]_
-**Index / Student Number:** _[fill in]_
+**Student Name:** Kassim Abdul-Ganiu
+**Index / Student Number:** MS/ITE/25/0034
 **Date:** _[submission date]_
 
 ---
 
-## 2. Introduction  ✍️ WRITE IN YOUR OWN WORDS (draft provided)
+## 2. Introduction
 
 Examinations are a core part of teaching and learning, but marking them by hand is slow and error-prone, especially for large classes. This project presents an **Online Examination and Grading System**: a desktop application, built in Java using the Swing GUI toolkit, that lets students sit exams on a computer and receive their marks instantly, while giving the teacher an at-a-glance view of every attempt.
 
 The application was designed and implemented individually as the semester project for INF811D (Object Oriented Programming). It demonstrates the four pillars of object-oriented programming — encapsulation, inheritance, polymorphism and abstraction — together with event-driven GUI programming, exception handling and input validation.
 
-> ✍️ *Add 2–3 sentences on why you personally chose this topic and what you set out to learn.*
+I chose this topic because my personal interest and previous projects have centred on the educational domain, so an examination and grading system was the natural fit among the listed options and one whose requirements I understood well. Beyond satisfying the course requirements, I set out to strengthen my grasp of applying OOP principles in a real graphical application and to gain first-hand experience building a Java desktop interface with Swing.
 
 ---
 
@@ -247,13 +247,19 @@ The repository contains the complete source code, a proper package/folder struct
 
 ---
 
-## 13. Challenges Encountered  ✍️ WRITE IN YOUR OWN WORDS
+## 13. Challenges Encountered
 
-> This section **must** be your own genuine experience. Below are prompts and a few real issues from this project to jog your memory — expand each into 2–3 sentences describing what happened and how you solved it.
+Several challenges were encountered during the development of this project:
 
-- **Character encoding bug:** separator characters displayed as garbled text (`â€¢`) because the source was UTF-8 but `javac` read it with the platform encoding. *How you fixed it:* switched to plain ASCII separators and added `-encoding UTF-8` to the build.
-- **Making Swing buttons look consistent:** default buttons ignored custom colours on the Windows look-and-feel. *How you fixed it:* created a custom `FlatButton` that paints its own background.
-- ✍️ *Add your own: e.g. laying out components with `BoxLayout`, keeping the timer in sync, deciding how to auto-mark theory questions, learning Git/GitHub, etc.*
+- **Choosing a single topic.** Because I have built a number of projects in the educational domain, narrowing the fifty options down to just one was genuinely difficult. I eventually settled on the Online Examination and Grading System because it aligned most closely with work I already understood and was passionate about.
+
+- **Setting up the development environment.** Preparing the Java tooling and IDE and creating a well-structured project from scratch took some effort, particularly getting the package/folder layout right so the classes were organised sensibly across the model, service and GUI layers.
+
+- **Working with Swing for the first time.** I deliberately chose Java Swing over JavaFX, which meant learning a new GUI toolkit from the ground up — laying out components, handling events, and getting a consistent, professional appearance across screens.
+
+- **Setting up Git and GitHub.** Initialising the repository, making meaningful commits and pushing the project to GitHub was a new workflow for me, and getting the local repository correctly connected to the remote took a little troubleshooting.
+
+- **A character-encoding bug.** Separator characters initially displayed as garbled text (`â€¢`) because the source files were UTF-8 but were being compiled with the platform's default encoding. I resolved it by switching to plain ASCII separators and compiling with the `-encoding UTF-8` option.
 
 ---
 
